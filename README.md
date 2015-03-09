@@ -1,2 +1,2 @@
 # web-tutorial
-Web-based Tutorial Resource for TQM Assignment
+Web-based Tutorial Resource for TQM Assignment.
