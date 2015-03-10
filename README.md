@@ -1,6 +1,18 @@
 # web-tutorial
 Web-based Tutorial Resource for TQM Assignment.
 
+## Code style guide
+
+A few quick rules:
+* Lines *must* be 80 characters or fewer.
+* No tabs. Ever. Use 4 spaces instead.
+* Use LF line endings (i.e. UNIX style). Windows CRLF line endings will be
+rejected.
+* Indent the HTML sources hierarchically.
+* Be sensible.
+
+## How to work with Github - quick primer
+
 GitHub is a version control tool, it will help us track everyone's changes and
 include (merge) them into the final version when they are ready.
 
@@ -42,3 +54,8 @@ button "Create Pull Request" again.
 8. Your changes will then be revised and merged upstream if they look good and
 do not break the work of others.
 
+## Adding "training material" to the website
+
+Copy `template.html` (WIP), rename it to something sensible (`index.html`),
+slap it in the proper subdirectory (WIP), and start adding stuff. Dead
+simple.
