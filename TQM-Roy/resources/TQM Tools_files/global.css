@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { 
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.1em;
+}
+
+img, form, fieldset, blockquote { 
+	margin: 0; 
+	border: 0; 
+	padding: 0;
+}
+
+table {
+	font-size: 1.0em;
+}
+
+td {
+	padding: 3px;
+}
+
+.clear {
+	clear: both;
+}
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.hidden {
+	display: none;
+	width:100%;
+}
+
+.show {
+	display: block;
+	width:100%;
+}
+
+.valignmid {
+	vertical-align: middle;
+}
+
+.valignbot {
+	vertical-align: bottom;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.small09 {
+	font-size: 0.9em;
+}
+
+.small08 {
+	font-size: 0.8em;
+}
+
+.small07 {
+	font-size: 0.7em;
+}
+
+.mtop5 {
+	margin-top: 5px;
+}
+
+.mtop10 {
+	margin-top: 10px;
+}
+
+.mbot5 {
+	margin-bottom: 5px;
+}
+.mbot10 {
+	margin-bottom: 10px;
+}
+
+.min-height-320 {
+	min-height: 320px;
+}
+
+.bot-shadow {
+	-webkit-box-shadow: 0px 5px 4px 0px #888;
+	box-shadow: 0px 5px 4px 0px #888;
+}

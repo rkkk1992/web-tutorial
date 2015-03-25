@@ -1,0 +1,90 @@
+div#corners {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 1000;
+	width: 100%;
+	height: 20px;
+	background: #transparent url('../images/pages/home-rounded-corners.png') no-repeat 0 0;
+}
+
+div#tmpSlideshow { 
+	position: relative; 
+	z-index: 100;
+	width: 900px;
+	height: 320px; 
+	margin: 0px; 
+	padding: 0 0 0 0;
+	background-color: #797979;
+	z-index: 1;
+	cursor: pointer;
+    cursor:hand;
+} 
+
+div.tmpSlide { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 900px; 
+	height: 320px; 
+	display: none; 
+} 
+
+div.tmpSlide img { 
+	float: left; 
+	width: 570px; 
+	margin: 0 0 0 0; 
+} 
+
+div.tmpSlideCopy { 
+	position: absolute; 
+	left: 600px; 
+	top: 0px; 
+	width: 270px;
+	color: white;
+} 
+
+div#tmpSlideshow h4 {
+	margin-top: 30px;
+	color: #ffffff;
+	font-size: 1.4em;
+	font-weight: 100;
+} 
+
+div.tmpSlideCopy p {
+	font-size: 0.7em;
+	line-height: 1.3em; 
+}
+
+div#tmpSlideshowControls { 
+	position: absolute; 
+	bottom: 0px; 
+	right: 0px; 
+} 
+
+div.tmpSlideshowControl { 
+	float: left; 
+	width: 137px; 
+	height: 35px; 
+	padding: 17px 0 0 10px;
+	border-right: 1px solid #797979;
+	background: url('/files/images/pages/home-button-i.png') repeat-x; 
+	font-weight: bold;
+	color: #abd9e8; 
+	cursor: pointer; 
+} 
+
+div.tmpSlideshowControl span {
+	margin-top:10px;
+	font-size: 0.8em;
+} 
+
+div.tmpSlideshowControlOn { 
+	background: url('/files/images/pages/home-button-a.png') repeat-x; 
+	color: #534344;
+} 
+
+div.tmpSlideshowControlActive { 
+	background: url('/files/images/pages/home-button-a.png') repeat-x;
+	color: #534344;
+}
